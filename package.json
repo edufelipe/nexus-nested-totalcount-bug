@@ -1,0 +1,26 @@
+{
+  "name": "nexus-nested-totalcount-bug",
+  "scripts": {
+    "dev": "ts-node-dev --debug --exit-child --rs --transpile-only src/server.ts",
+    "build": "tsc --outDir dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliveiraethales/nexus-nested-totalcount-bug.git"
+  },
+  "dependencies": {
+    "@types/graphql-relay": "^0.6.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^14.0.0",
+    "graphql-relay": "^0.6.0",
+    "graphql-scalars": "^1.9.0",
+    "graphql-type-json": "^0.3.2",
+    "nexus": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  }
+}
